@@ -5,8 +5,9 @@ name = "pypi"
 
 [packages]
 importlib-resources = "5.10.0"
-ipdb = "0.13.9"
-sqlalchemy = "1.4.41"
+ipdb = "*"
+sqlalchemy = "*"
+alembic = "*"
 
 [requires]
 python_full_version = "3.8.13"
